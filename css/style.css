@@ -1,0 +1,50 @@
+@font-face {
+  font-family: CaviarDreams;
+  src: url(CaviarDreams.ttf);
+}
+@font-face {
+  font-family: Youther;
+  src: url(Youther.ttf);
+}
+html, body{
+  background: url(../images/background.jpg)  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  font-family: CaviarDreams;
+}
+.headertext{
+  font-family: Youther;
+
+}
+.nav{
+  float: right;
+  color: #FAFAFA;
+}
+.nav-link{
+  color: #FAFAFA;
+}
+.nav-link:hover{
+  color: #C3073F;
+}
+.nav-pills .nav-link.active{
+  background-color: #4E4E50;
+}
+.profile-img{
+  width: 201px;
+  height: 210px;
+  border-radius: 50%;
+}
+.name-container{
+  position: absolute;
+  left: 450px;
+  top: 152px;
+  opacity: 1;
+  color: #FAFAFA;
+}
+.name-container hr {
+    border: none;
+    border-top: 1px dashed #fff;
+  }
