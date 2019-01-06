@@ -1,0 +1,8 @@
+.container-fluid{
+  color: #FAFAFA;
+  background-color: #C3073F;
+  opacity: 0.8;
+}
+.container-fluid:hover{
+  opacity: 1;
+}
