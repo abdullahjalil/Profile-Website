@@ -1,8 +1,7 @@
-.container-fluid{
+.list-unstyled {
   color: #FAFAFA;
+  font-size: 15px;
   background-color: #C3073F;
-  opacity: 0.8;
-}
-.container-fluid:hover{
-  opacity: 1;
+  padding: 10px;
+  opacity: 0.9;
 }
